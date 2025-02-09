@@ -1,7 +1,7 @@
 let amigos = [];
 
 function adicionarAmigo() {
-    let nomeInput = document.getElementById("nomeAmigo");
+    let nomeInput = document.getElementById("amigo");
     let nome = nomeInput.value.trim();
 
     if (nome === "") {
